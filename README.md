@@ -12,7 +12,7 @@ You can install software from the *dist/* folder by running following command.
 curl -s https://raw.githubusercontent.com/chaosmail/sh-install/master/python.sh | bash /dev/stdin
 ```
 
-Please check the *dist/* folder which packages and version are available!
+The files without version numbers always refer to the latest stable versions. Other versions can be installed by specifying the version number in the filename. Please check the *dist/* folder which packages and version are available!
 
 ## Development
 
