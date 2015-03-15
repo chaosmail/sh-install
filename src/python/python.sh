@@ -1,11 +1,11 @@
 {% include 'common/common.sh' %}
 
-# Python Package URL
-PY_URL="https://www.python.org/ftp/python/$PY_VERSION/Python-$PY_VERSION.tgz"
-
 # Python Version
 PY_SHORT_VERSION={% block short_version %}3.4{% endblock %}
 PY_VERSION={% block version %}3.4.3{% endblock %}
+
+# Python Package URL
+PY_URL="https://www.python.org/ftp/python/$PY_VERSION/Python-$PY_VERSION.tgz"
 
 # Python Directory Name
 PY_DIR="Python-$PY_VERSION"

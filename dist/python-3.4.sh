@@ -9,12 +9,12 @@ sudo apt-get -y update
 # Install Common Packages
 sudo apt-get -y install software-properties-common libssl-dev openssl wget
 
-# Python Package URL
-PY_URL="https://www.python.org/ftp/python/$PY_VERSION/Python-$PY_VERSION.tgz"
-
 # Python Version
 PY_SHORT_VERSION=3.4
 PY_VERSION=3.4.3
+
+# Python Package URL
+PY_URL="https://www.python.org/ftp/python/$PY_VERSION/Python-$PY_VERSION.tgz"
 
 # Python Directory Name
 PY_DIR="Python-$PY_VERSION"
