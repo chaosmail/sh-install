@@ -13,7 +13,16 @@ env = Environment()
 env.loader = FileSystemLoader(SRC_DIR)
 
 @task
+def clean():
+	"""Clean the dist/ directory"""
+	if (fs.isdir(DIST_DIR)):
+		fs.truncate(DIST_DIR)
+
+@task
 def make():
+	"""Generate the current shell scripts from the templates"""
+	clean()
+
 	for _file in fs.find(SRC_DIR, '*.sh'):
 		tplname = _file.replace(SRC_DIR + '/', "")
 		dest = fs.join(DIST_DIR, fs.filename(tplname))
