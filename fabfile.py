@@ -23,9 +23,9 @@ def make():
 	"""Generate the current shell scripts from the templates"""
 	clean()
 
-	for _file in fs.find(SRC_DIR, '*.sh'):
+	for _file in fs.find('*.sh', SRC_DIR):
 		tplname = _file.replace(SRC_DIR + '/', "")
 		dest = fs.join(DIST_DIR, fs.filename(tplname))
 		tpl = env.get_template(tplname)
-		fs.content(dest, tpl.render())
+		fs.write(dest, tpl.render())
 		print("Writing template %s" % tplname)
