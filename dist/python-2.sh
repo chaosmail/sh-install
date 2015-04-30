@@ -9,6 +9,8 @@ sudo apt-get -y update
 # Install Common Packages
 sudo apt-get -y install software-properties-common libssl-dev openssl wget
 
+sudo apt-get install -y libreadline-dev
+
 # Python Version
 PY_SHORT_VERSION=2.7
 PY_VERSION=2.7.9

@@ -1,5 +1,7 @@
 {% include 'common/common.sh' %}
 
+sudo apt-get install -y libreadline-dev
+
 # Python Version
 PY_SHORT_VERSION={% block short_version %}3.4{% endblock %}
 PY_VERSION={% block version %}3.4.3{% endblock %}
