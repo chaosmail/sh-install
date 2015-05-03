@@ -1,6 +1,6 @@
 {% include 'common/common.sh' %}
 
-sudo apt-get install -y libreadline-dev
+sudo apt-get install -y libreadline-dev libsqlite3-dev
 
 # Python Version
 PY_SHORT_VERSION={% block short_version %}3.4{% endblock %}
