@@ -28,10 +28,10 @@ CV_DIR="OpenCV-$CV_VERSION"
 CV_INSTALL_LOCATION=/opt
 
 # Download OpenCV
-wget --directory-prefix=/tmp -O "$CV_DIR.zip" "$CV_URL"
+wget -O "/tmp/$CV_DIR.zip" "$CV_URL"
 
 # Extract it
-unzip "$CV_DIR.zip" -d "$CV_INSTALL_LOCATION"
+sudo unzip "/tmp/$CV_DIR.zip" -d "$CV_INSTALL_LOCATION"
 
 # Change to the directory
 cd "$CV_INSTALL_LOCATION/$CV_DIR"
