@@ -14,14 +14,23 @@ curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/pyth
 
 The files without version numbers always refer to the latest stable versions. Other versions can be installed by specifying the version number in the filename. Please check the *dist/* folder which packages and version are available!
 
+## Software
+
+* Ansible: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/ansible.sh | bash -`
+* Python: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/python.sh | bash -`
+* Pip: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/pip.sh | bash -`
+* OpenCV: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/opencv.sh | bash -`
+
 ## Development
 
 Requirements:
 * python2.7
 * fabric
-* python-fs
+* pyfs
 
-To generate the *dist/* files, please run ```fab make```
+Install the requirements running `pip install -r requirements.txt`
+
+To generate the *dist/* files, please run `fab make`
 
 The domain [http://get.sh-install.ch](http://get.sh-install.ch) is a shortcut and automatically forwards to [https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/](https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/).
 
