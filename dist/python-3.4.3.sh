@@ -7,7 +7,7 @@ sudo apt-get -y upgrade
 sudo apt-get -y update
 
 # Install Common Packages
-sudo apt-get -y install software-properties-common libssl-dev openssl wget cmake
+sudo apt-get -y install software-properties-common libssl-dev openssl wget build-essential cmake
 
 sudo apt-get -y install libreadline-dev libsqlite3-dev
 
