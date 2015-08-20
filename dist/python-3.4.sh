@@ -7,9 +7,9 @@ sudo apt-get -y upgrade
 sudo apt-get -y update
 
 # Install Common Packages
-sudo apt-get -y install software-properties-common libssl-dev openssl wget
+sudo apt-get -y install software-properties-common libssl-dev openssl wget cmake
 
-sudo apt-get install -y libreadline-dev libsqlite3-dev
+sudo apt-get -y install libreadline-dev libsqlite3-dev
 
 # Python Version
 PY_SHORT_VERSION=3.4
