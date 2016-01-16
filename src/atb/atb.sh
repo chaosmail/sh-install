@@ -19,7 +19,7 @@ wget -O "/tmp/$ATB_DIR.zip" "$ATB_URL"
 sudo unzip "/tmp/$ATB_DIR.zip" -d "$ATB_INSTALL_LOCATION"
 
 # Change to the directory
-cd "$ATB_INSTALL_LOCATION/$ATB_DIR"
+cd "$ATB_INSTALL_LOCATION/AntTweakBar"
 
 # Make a build directory
 mkdir build
