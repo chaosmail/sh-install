@@ -22,14 +22,7 @@ wget -O "/tmp/$ATB_DIR.zip" "$ATB_URL"
 unzip "/tmp/$ATB_DIR.zip" -d "$ATB_INSTALL_LOCATION"
 
 # Change to the directory
-cd "$ATB_INSTALL_LOCATION/AntTweakBar"
-
-# Make a build directory
-mkdir build
-cd build
-
-# Create makefile
-cmake ..
+cd "$ATB_INSTALL_LOCATION/AntTweakBar/src"
 
 # Make
 make -j2
