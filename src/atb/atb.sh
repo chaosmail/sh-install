@@ -10,7 +10,10 @@ ATB_URL="http://heanet.dl.sourceforge.net/project/anttweakbar/AntTweakBar_$ATB_V
 ATB_DIR="atb-$ATB_VERSION"
 
 # AntTweakBar Install Directory
-ATB_INSTALL_LOCATION="/home/$USER"
+ATB_INSTALL_LOCATION="/home/$USER/.libs"
+
+# Create the directory
+mkdir -p "$ATB_INSTALL_LOCATION"
 
 # Download AntTweakBar
 wget -O "/tmp/$ATB_DIR.zip" "$ATB_URL"
