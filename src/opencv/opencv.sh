@@ -13,7 +13,7 @@ CV_VERSION={% block version %}"$(wget -q -O - http://sourceforge.net/projects/op
 CV_URL="http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/$CV_VERSION/opencv-"$CV_VERSION".zip/download"
 
 # OpenCV Directory Name
-CV_DIR="OpenCV-$CV_VERSION"
+CV_DIR="opencv-$CV_VERSION"
 
 # OpenCV Install Directory
 CV_INSTALL_LOCATION=/opt

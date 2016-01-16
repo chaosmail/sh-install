@@ -20,6 +20,8 @@ The files without version numbers always refer to the latest stable versions. Ot
 * Python: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/python.sh | bash -`
 * Pip: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/pip.sh | bash -`
 * OpenCV: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/opencv.sh | bash -`
+* OpenGL: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/opengl.sh | bash -`
+* AntTweakBar: `curl -sL https://raw.githubusercontent.com/chaosmail/sh-install/master/dist/atb.sh | bash -`
 
 ## Development
 
