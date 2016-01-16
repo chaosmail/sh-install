@@ -26,7 +26,6 @@ cd "$ATB_INSTALL_LOCATION/AntTweakBar/src"
 
 # Make
 make -j2
-sudo make install
 
 # Clean up
 rm -rf "/tmp/$ATB_DIR.zip"
