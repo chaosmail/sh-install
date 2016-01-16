@@ -8,7 +8,7 @@ sudo apt-get -y upgrade
 sudo apt-get -y update
 
 # Install Common Packages
-sudo apt-get -y install software-properties-common unzip libssl-dev openssl wget build-essential cmake
+sudo apt-get -y install software-properties-common zip unzip libssl-dev openssl wget build-essential cmake
 
 # Removing any pre-installed ffmpeg and x264
 sudo apt-get -y remove ffmpeg x264 libx264-dev
