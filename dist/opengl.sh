@@ -10,5 +10,5 @@ sudo apt-get -y update
 # Install Common Packages
 sudo apt-get -y install software-properties-common zip unzip libssl-dev openssl wget build-essential cmake
 
-# Installing GLUT, GLFW, GLEW
-sudo apt-get -y install freeglut3-dev libglfw3-dev libglew-dev
+# Installing GLUT, GLFW, GLEW, SOIL
+sudo apt-get -y install freeglut3-dev libglfw3-dev libglew-dev libsoil-dev

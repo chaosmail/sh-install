@@ -26,13 +26,16 @@ CV_URL="http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/$CV_VERS
 CV_DIR="opencv-$CV_VERSION"
 
 # OpenCV Install Directory
-CV_INSTALL_LOCATION=/opt
+CV_INSTALL_LOCATION="/home/$USER/.libs"
+
+# Create the directory
+mkdir -p "$CV_INSTALL_LOCATION"
 
 # Download OpenCV
 wget -O "/tmp/$CV_DIR.zip" "$CV_URL"
 
 # Extract it
-sudo unzip "/tmp/$CV_DIR.zip" -d "$CV_INSTALL_LOCATION"
+unzip "/tmp/$CV_DIR.zip" -d "$CV_INSTALL_LOCATION"
 
 # Change to the directory
 cd "$CV_INSTALL_LOCATION/$CV_DIR"
